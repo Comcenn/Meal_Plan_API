@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "meal_plan_api"
+version = "0.1.0"
+description = ""
+authors = ["Comcenn <james.griffin@bath.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^2.2"
+confidential = "^2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.8"
+pytest-django = "^3.6"
+pytest-xdist = "^1.30"
+black = {version = "^18.3-alpha.0", allows-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
